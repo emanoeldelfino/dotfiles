@@ -1,0 +1,6 @@
+{
+    "cmd": ["/usr/bin/python2", "-u", "$file"],  // On Windows change /usbr/bin/python2
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "env": {"PYTHONIOENCODING": "utf-8", "LANG": "pt_BR.UTF-8"},
+    "quiet": true
+}
