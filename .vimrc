@@ -2,16 +2,16 @@
 if has('persistent_undo')
 
     " check if ~/.vim/undo dir doesn't exists
-    if empty(glob("~/.vim/undo"))
+	if empty(glob("~/.vim/undo"))
         " if it doesn't exist, create it
-        silent !mkdir -p ~/.vim/undo
-    endif
+		silent !mkdir -p ~/.vim/undo
+	endif
 
     " turn on the feature
-    set undofile
+	set undofile
 
     " directory where the undo files will be stored
-    set undodir=$HOME/.vim/undo
+	set undodir=$HOME/.vim/undo
 endif
 
 " Still it is a \t. It is just that
@@ -37,3 +37,11 @@ set nowrap
 
 " line numbers
 set number
+
+" syntax highlighting
+filetype plugin on
+syntax on
+
+" allow backspace for old text
+set backspace=indent,eol,start
+
