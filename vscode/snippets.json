@@ -1,0 +1,9 @@
+{
+  "html": {
+    "snippets": {
+      "mydoc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title+link[href='./style.css'])+body",
+      "!!": "!!!+mydoc",
+      "hj": "mydoc>script[src='./app.js']"
+    }
+  }
+}
