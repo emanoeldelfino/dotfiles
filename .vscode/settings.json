@@ -1,0 +1,35 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+      "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "expand",
+  "diffEditor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 400,
+  "workbench.colorTheme": "One Dark Pro",
+  "color-highlight.markerType": "dot-after",
+  "liveServer.settings.useLocalIp": true,
+}
