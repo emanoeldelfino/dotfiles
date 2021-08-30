@@ -13,7 +13,6 @@ ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vscode.cpptools
-msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 patbenatar.advanced-new-file
 PKief.material-icon-theme
@@ -22,3 +21,5 @@ sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
 TabNine.tabnine-vscode
 wix.vscode-import-cost
+zhuangtongfa.material-theme
+
