@@ -1,7 +1,7 @@
 alias v=vim
-alias dev="cd ~/development"
 
 # Asks to confirm when
 # deleting a bunch of files
 # using wildcard star *
 alias rm="rm -I"
+

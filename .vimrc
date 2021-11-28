@@ -44,3 +44,8 @@ syntax on
 " allow backspace for old text
 set backspace=indent,eol,start
 
+" Set auto indentation
+set autoindent
+filetype plugin indent on
+filetype indent on
+

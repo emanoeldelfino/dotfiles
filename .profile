@@ -7,7 +7,3 @@ if [ -d "$HOME/bin" ]; then
 	PATH="$PATH:$HOME/bin"
 fi
 
-if [ -d "$HOME/drivers" ]; then
-	PATH="$PATH:$HOME/drivers"
-fi
-
