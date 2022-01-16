@@ -105,3 +105,5 @@ source $HOME/.aliases
 
 path+=('/home/emanoel/bin')
 export PATH
+
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
