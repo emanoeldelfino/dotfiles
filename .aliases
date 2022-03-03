@@ -1,7 +1,5 @@
 alias v=vim
-
-# Asks to confirm when
-# deleting a bunch of files
-# using wildcard star *
-alias rm="rm -I"
+alias c=clear
+alias rm="rm -I" # Confirm when deleting many files using *
+alias giac="git init && git add -A && git commit -m 'Initial commit'"
 
