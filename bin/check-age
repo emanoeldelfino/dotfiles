@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+echo 'How old are you?'
+
+read age
+
+if [ $age -ge 16 ]
+then
+	echo 'You can drive!'
+else
+	echo "You can't drive yet."
+fi

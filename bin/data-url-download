@@ -1,0 +1,16 @@
+#! /usr/bin/bash
+
+data=$(xclip -out -selection clipboard)
+
+ext=${data#*/}
+ext=${ext%%;*}
+ext=${ext/jpeg/jpg}
+
+if [ $1 ]; then
+	filename=$1
+else
+	filename=file
+fi
+
+echo "${data#*,}" | base64 -d > $filename.$ext 
+

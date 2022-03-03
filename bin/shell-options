@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo -ne "\nCurrent shell is "
+if [[ "$-" != *i* ]]; then
+	echo -n "not "
+fi
+echo "interactive"
+
+echo -e "Shell options: $-\n"
+

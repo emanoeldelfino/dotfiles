@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo number of parameters were $#
+echo exit value of the last command $?
+echo first word of entered command $0
+echo parameters passed $*
+echo parameters you passed quoted are "$@"
+

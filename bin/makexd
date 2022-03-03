@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+Help() {
+    echo "Make and execute C files"
+    echo
+    echo "$0 <filename>"
+}
+
+while getopts ":h" option; do
+	case $option in
+		h) # display help
+			Help
+			exit;;
+		\?) # incorrect option	
+			echo "Error: Invalid option"
+			echo "Try: $0 -help"	
+			exit;;
+	esac
+done
+
+# No options provided
+if [ $# -eq 0 ]; then
+    echo "No arguments provided. Try $0 -h"
+    exit 1
+fi
+
+make $1 && "./$1" && rm "./$1"
+

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+time="22:00"
+shutdown -h $time 
+
+message="Shutdown scheduled to $time"
+
+# notify-send $message
+zenity --info --title "Shutdown" --text $message --timeout=5
+# xmessage $message 
+

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for i in {1..9}; do mv ex$i.c ex0$i.c; done
+for i in {01..10}; do ./compile ex$i.c ex$i.out; done
+

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo
+echo "Today is $(date). A fine day."
+echo
+

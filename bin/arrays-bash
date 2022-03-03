@@ -1,0 +1,15 @@
+#! /usr/bin/bash
+
+beatles=('John' 'Paul' 'George' 'Ringo')
+
+echo ${beatles[3]}
+
+if test $beatles = ${beatles[0]}; then
+	echo beatles is equal to beatles[0]
+else
+	echo beatles is not equal to beatles[0]
+fi
+
+# To get all items of array
+echo ${beatles[@]}
+

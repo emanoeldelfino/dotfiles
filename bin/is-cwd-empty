@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+RED='\e[1;31m'
+GREEN='\e[1;32m'
+END='\e[0m'
+
+if ls -l "$PWD"/* &> /dev/null; then
+	echo -e "${RED}Current directory is not empty.${END}"
+else
+	echo -e "${GREEN}Current directory is empty.${END}"
+fi
+
