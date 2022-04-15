@@ -70,7 +70,7 @@ ZSH_THEME="xilcrow"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent zsh-autosuggestions)
+plugins=(git ssh-agent zsh-autosuggestions zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,4 +102,3 @@ source $ZSH/oh-my-zsh.sh
 
 setopt correct
 setopt correctall
-
