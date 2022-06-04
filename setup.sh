@@ -27,7 +27,7 @@ sed -i 's/ZSH_THEME=.*/ZSH_THEME="xilcrow"/' ~/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # set oh my zsh plugins
-sed -i 's/plugins=.*/plugins=(git ssh-agent zsh-autosuggestions)' ~/.zshrc
+sed -i 's/plugins=.*/plugins=(git ssh-agent zsh-autosuggestions)/' ~/.zshrc
 
 # Install zsh-nvm
 git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
