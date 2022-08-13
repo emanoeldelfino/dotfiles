@@ -1,35 +1,59 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
-  "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-  },
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-  },
-  "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-      "editor.defaultFormatter": "aeschli.vscode-css-formatter"
-  },
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.cursorBlinking": "expand",
-  "diffEditor.wordWrap": "on",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-  "liveServer.settings.CustomBrowser": "chrome",
-  "tabnine.experimentalAutoImports": true,
-  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'Droid Sans Fallback', Consolas, monospace",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": 400,
-  "workbench.colorTheme": "One Dark Pro",
-  "color-highlight.markerType": "dot-after",
-  "liveServer.settings.useLocalIp": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode", 
+        "editor.formatOnSave": true,
+    },
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter",
+        "editor.formatOnSave": true,
+    },
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "expand",
+    "diffEditor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'JetBrains Mono', 'Droid Sans Mono', 'Droid Sans Fallback', Consolas, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 300,
+    "color-highlight.markerType": "dot-after",
+    "liveServer.settings.useLocalIp": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.inlineSuggest.enabled": true,
+    "code-runner.runInTerminal": true,
+    "cSpell.userWords": [
+        "atual"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "java": false,
+        "csharp": false
+    },
+    "editor.parameterHints.enabled": false,
 }
