@@ -49,6 +49,6 @@ set autoindent
 filetype plugin indent on
 filetype indent on
 
-" WSL specific config to stop annoying beep
+" Stop annoying beep
 set visualbell
 
