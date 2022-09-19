@@ -2,4 +2,5 @@ alias v=vim
 alias c=clear
 alias rm="rm -I" # Confirm when deleting many files using *
 alias giac="git init && git add -A && git commit -m 'Initial commit'"
+alias hg='history | grep'
 
