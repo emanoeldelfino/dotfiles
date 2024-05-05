@@ -73,10 +73,10 @@ ZSH_THEME="xilcrow"
 plugins=(
     git 
     ssh-agent 
-    zsh-nvm 
-    zsh-autosuggestions 
-    zsh-syntax-highlighting 
-    zsh-history-substring-search
+    nvm
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
