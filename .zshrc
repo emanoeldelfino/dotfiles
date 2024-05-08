@@ -74,7 +74,6 @@ plugins=(
     git 
     ssh-agent 
     nvm
-    zsh-autosuggestions
     zsh-syntax-highlighting
     history-substring-search
 )
